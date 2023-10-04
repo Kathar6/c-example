@@ -9,7 +9,7 @@ int getStartingLlamas(void) {
   return starting;
 }
 
-int getGoalcurrent_llamas(void) {
+int getGoalLlamas(void) {
   int goal;
 
   printf("Type goal number of current_llamas: ");
@@ -20,7 +20,7 @@ int getGoalcurrent_llamas(void) {
 
 int main(void) {
   int current_llamas = getStartingLlamas();
-  int goal = getGoalcurrent_llamas();
+  int goal = getGoalLlamas();
 
   int years = 0;
 
